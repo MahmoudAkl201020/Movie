@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AZSearchView (1.0.3)
+  - HanekeSwift (0.10.1)
+  - Kingfisher (4.7.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AZSearchView
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `feature/swift-3`)
+  - Kingfisher
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AZSearchView
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 2f6d87f1f725d204d85cb34492e8c399cd5a200f
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AZSearchView: 4ed3266ff6b27c1131466ac2bcaaa499800b1a0b
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 0fe31b44d40af02d72e378a9d97cad6f62615e10
+
+COCOAPODS: 1.5.0
